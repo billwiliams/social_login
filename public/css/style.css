@@ -1,0 +1,395 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    background: #E3E3E1;
+}
+
+.login {
+    background: #FFF;
+    border: 1px solid #CCC;
+    margin: 50px auto;
+    padding: 20px;
+    width: 350px;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, .2);
+            box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, .2);
+}
+
+.login h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.login hr {
+    border-top: 1px solid #EEE;
+    margin: 20px 0;
+}
+
+.login .social-link {
+    color: #FFF;
+    display: block;
+    font-weight: 700;
+    margin: 10px 0;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+}
+
+.login .social-link i {
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    line-height: 40px;
+    text-align: center;
+    width: 30px;
+}
+
+.login .social-link .link-text {
+    display: inline-block;
+    line-height: 40px;
+    padding-top: 5px;
+    vertical-align: top;
+    text-shadow: 1px -1px 0 rgba(0, 0, 0, .3);
+}
+
+.login .facebook a {
+    background: #5373b8;
+    background: -moz-linear-gradient(top,  #5373b8 0%, #344c7f 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5373b8), color-stop(100%,#344c7f));
+    background: -webkit-linear-gradient(top,  #5373b8 0%,#344c7f 100%);
+    background: -o-linear-gradient(top,  #5373b8 0%,#344c7f 100%);
+    background: -ms-linear-gradient(top,  #5373b8 0%,#344c7f 100%);
+    background: linear-gradient(to bottom,  #5373b8 0%,#344c7f 100%);
+    border: 1px solid #31497B;
+}
+
+.login .facebook i {
+    background: #607cbb;
+    background: -moz-linear-gradient(top,  #607cbb 0%, #435989 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#607cbb), color-stop(100%,#435989));
+    background: -webkit-linear-gradient(top,  #607cbb 0%,#435989 100%);
+    background: -o-linear-gradient(top,  #607cbb 0%,#435989 100%);
+    background: -ms-linear-gradient(top,  #607cbb 0%,#435989 100%);
+    background: linear-gradient(to bottom,  #607cbb 0%,#435989 100%);
+    border-right: 1px solid #46629E;
+}
+
+.login .twitter a {
+    background: #5dbde3;
+    background: -moz-linear-gradient(top,  #5dbde3 0%, #2795c2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5dbde3), color-stop(100%,#2795c2));
+    background: -webkit-linear-gradient(top,  #5dbde3 0%,#2795c2 100%);
+    background: -o-linear-gradient(top,  #5dbde3 0%,#2795c2 100%);
+    background: -ms-linear-gradient(top,  #5dbde3 0%,#2795c2 100%);
+    background: linear-gradient(to bottom,  #5dbde3 0%,#2795c2 100%);
+    border: 1px solid #2090BD;
+}
+
+.login .twitter i {
+    background: #69c1e4;
+    background: -moz-linear-gradient(top,  #69c1e4 0%, #359ac4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#69c1e4), color-stop(100%,#359ac4));
+    background: -webkit-linear-gradient(top,  #69c1e4 0%,#359ac4 100%);
+    background: -o-linear-gradient(top,  #69c1e4 0%,#359ac4 100%);
+    background: -ms-linear-gradient(top,  #69c1e4 0%,#359ac4 100%);
+    background: linear-gradient(to bottom,  #69c1e4 0%,#359ac4 100%);
+    border-right: 1px solid #43A3CA;
+}
+
+.login input {
+    box-sizing: border-box;
+    border: 1px solid #DDD;
+    display: block;
+    margin: 10px 0;
+    padding: 15px;
+    width: 100%;
+}
+
+.login .form-links {
+    float: left;
+}
+
+.login .form-links a {
+    color: #666;
+    display: block;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.login .form-links a:hover {
+    text-decoration: underline;
+}
+
+.login button,
+.link-button {
+    background: #FAFAFA;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #fafafa 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#fafafa));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#fafafa 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#fafafa 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#fafafa 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#fafafa 100%);
+    border: 1px solid #DEDEDE;
+    color: #000 !important;
+    display: block;
+    float: right;
+    font-weight: 700;
+    padding: 15px 20px;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow:  0px 2px 5px 0px rgba(0, 0, 0, .1);
+            box-shadow:  0px 2px 5px 0px rgba(0, 0, 0, .1);
+}
+
+.link-button {
+    float: none;
+}
+
+.link-button:hover {
+    text-decoration: none !important;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
